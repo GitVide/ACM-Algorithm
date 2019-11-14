@@ -10,8 +10,13 @@ public class Main{
             if(flag > 0){
                 sum += -i;
                 flag--;
-            }else{
+                if(flag == 0)
+                    flag = -m;
+            }else if(flag < 0){
                 sum += i;
+                flag++;
+                if(flag == 0)
+                    flag = m;
             }
         }
     }

@@ -77,7 +77,8 @@ int main()
 			}
 		}
 	}
-	cout<<bfs(sx,sy,gx,gy)<<endl;
+	int anwser = bfs(sx,sy,gx,gy);
+	cout<<anwser<<endl;
 	return 0;
 }
 

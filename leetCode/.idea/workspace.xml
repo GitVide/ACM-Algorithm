@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7813f610-7529-4448-a62b-390b49d4e219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../newcode/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../newcode/src/tencent2018/cardGame/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../newcode/src/tencent2018/flipArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/tencent50/reverse_words_557/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../newcode/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +15,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/medium/tencent50/reverse_words_557/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,13 +83,14 @@
         <option value="$PROJECT_DIR$/src/newcode/tencent2018/second/Main.java" />
         <option value="$PROJECT_DIR$/src/newcode/tencent2018/flipArray/Main.java" />
         <option value="$PROJECT_DIR$/src/newcode/tencent2018/cardGame/Main.java" />
+        <option value="$PROJECT_DIR$/src/medium/tencent50/reverse_words_557/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1090" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="949" />
+    <option name="width" value="981" />
+    <option name="height" value="1091" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -89,6 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,18 +114,37 @@
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="tencent50" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="tencent50" type="462c0819:PsiDirectoryNode" />
+              <item name="reverse_words_557" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573734465049" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574653877044" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -128,13 +160,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Jump">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top100.Jump" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.tencent50.reverse_words_557.Main" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.tencent50.reverse_words_557.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,10 +215,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Jump" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Jump" />
         <item itemvalue="Application.Test (1)" />
       </list>
@@ -200,16 +248,18 @@
       <workItem from="1573731233572" duration="2884000" />
       <workItem from="1573734651616" duration="281000" />
       <workItem from="1573735194512" duration="169000" />
+      <workItem from="1574653447208" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48817000" />
+    <option name="totallyTimeSpent" value="49050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1215" height="775" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28638497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15211755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -249,13 +299,7 @@
     <entry file="file://$PROJECT_DIR$/Basic.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://D:/JDK/jdk1.8/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="142" column="28" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/JDK/jdk1.8/src.zip!/java/util/HashMap.java" />
     <entry file="file://$PROJECT_DIR$/src/simple/_112/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -337,13 +381,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/_2831.java" />
-    <entry file="jar://D:/JDK/jdk1.8/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="266" column="28" selection-start-line="266" selection-start-column="28" selection-end-line="266" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/JDK/jdk1.8/src.zip!/java/util/LinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/medium/_2831/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -381,10 +419,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newcode/tencent2018/flipArray/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/newcode/tencent2018/cardGame/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/interview/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/interview/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/medium/tencent50/reverse_words_557/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        <state relative-caret-position="152">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>

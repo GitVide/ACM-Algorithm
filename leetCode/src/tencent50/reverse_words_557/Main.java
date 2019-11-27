@@ -11,8 +11,8 @@ public class Main {
         StringBuilder strBuil = new StringBuilder();
         for (String str : strArray) {
             StringBuilder strTemp = new StringBuilder(str);
-            strBuil.append(strTemp.reverse());
+            strBuil.append(strTemp.reverse() + " ");
         }
-        return new String(strBuil);
+        return new String(strBuil.substring(0, strBuil.length() - 1));
     }
 }

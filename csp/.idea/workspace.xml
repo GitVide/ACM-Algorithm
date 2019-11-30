@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b0ed1bd-bea1-4b8a-a86c-fe38447d6f33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_201909_1/recommendSystem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_201909_1/recommendSystem/testdata.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lougu/p1583/testdata.in" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_201909_1/recommendSystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_201909_1/recommendSystem/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,26 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_201909_1/recommendSystem/testdata.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_201909_1/recommendSystem/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,6 +44,7 @@
         <option value="$PROJECT_DIR$/src/lougu/p1583/testdata.in" />
         <option value="$PROJECT_DIR$/src/_201909_1/recommendSystem/testdata.in" />
         <option value="$PROJECT_DIR$/src/_201909_1/recommendSystem/Main.java" />
+        <option value="$PROJECT_DIR$/src/_201909_1/recommendSystem/d.in" />
       </list>
     </option>
   </component>
@@ -74,7 +54,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="948" />
     <option name="width" value="981" />
     <option name="height" value="1092" />
@@ -121,7 +101,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574926508103" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574948756276" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -199,18 +179,19 @@
       <workItem from="1574778269986" duration="5120000" />
       <workItem from="1574821468757" duration="5354000" />
       <workItem from="1574834023087" duration="7684000" />
-      <workItem from="1574920636067" duration="2305000" />
+      <workItem from="1574920636067" duration="2400000" />
+      <workItem from="1574948675368" duration="676000" />
+      <workItem from="1575115931760" duration="236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21325000" />
+    <option name="totallyTimeSpent" value="22332000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1215" height="775" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1215" height="775" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2662057" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27484876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,6 +293,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_201909_1/recommendSystem/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_201909_1/recommendSystem/testdata.in">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -319,13 +307,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_201909_1/recommendSystem/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_201909_1/recommendSystem/d.in" />
   </component>
   <component name="masterDetails">
     <states>
